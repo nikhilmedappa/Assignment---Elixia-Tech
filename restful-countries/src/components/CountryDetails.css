@@ -1,0 +1,36 @@
+
+.country {
+    display: flex;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.country img {
+    width: 112px;
+    height: 64px;
+    margin-right: 16px;
+}
+
+#country-name {
+    font-size: 2em;
+}
+
+#country-cioc {
+    color: grey;
+}
+
+#country-capital {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.details {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.detail-title {
+    margin-bottom: 4px;
+    color: rgb(116, 116, 116);
+}
